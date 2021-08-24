@@ -10,8 +10,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by Sogumontar Hendra Simangunsong on 8/24/2021.
+ */
+
 @SpringBootTest
-class InterviewPreparationApplicationTests {
+public class TLVServiceTest {
   private String inputStream;
   private List<String> expectedOutput = new ArrayList<>();
 
@@ -32,6 +36,7 @@ class InterviewPreparationApplicationTests {
     expectedOutput.add("Type not valid");
     expectedOutput.add("UPPRCS-1234");
   }
+
 
   @Test
   void mergedContextLoads() {
